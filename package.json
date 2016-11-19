@@ -1,0 +1,31 @@
+{
+  "name": "boco-dispatch",
+  "version": "0.1.0",
+  "description": "Dispatcher (ala Flux)",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/coffee test.coffee",
+    "build": "rm -rf build && mkdir build && ./node_modules/.bin/coffee -cmb -o build source"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bocodigitalmedia/boco-dispatch.git"
+  },
+  "keywords": [
+    "dispatch",
+    "dispatcher",
+    "flux"
+  ],
+  "author": "Christian Bradley <christianbradley@gmail.com> (https://github.com/christianbradley)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bocodigitalmedia/boco-dispatch/issues"
+  },
+  "homepage": "https://github.com/bocodigitalmedia/boco-dispatch#readme",
+  "devDependencies": {
+    "coffee-script": "^1.11.1"
+  },
+  "dependencies": {
+    "uuid": "^3.0.0"
+  }
+}
